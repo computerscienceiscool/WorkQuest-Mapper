@@ -506,10 +506,18 @@
                     <strong>Get Your Map URL</strong>
                     <p>Your map will be available at: <code>https://username.github.io/workadventure-map/map.json</code></p>
                 </div>
+                <div class="step-item">
+                    <strong>Test the JSON File</strong>
+                    <p>When you visit the URL, you'll see raw JSON text (not a webpage) - this is correct! The JSON content should be properly formatted, not a jumbled string.</p>
+                </div>
             </div>
 
-            <div class="success-box">
-                <strong>✅ GitHub Pages Benefits:</strong> Free hosting, automatic HTTPS, global CDN, and easy updates by committing new files.
+            <div class="warning-box">
+                <strong>⚠️ Important:</strong> When you visit your map.json URL directly, you should see properly formatted JSON with line breaks and indentation, NOT a compressed single line of text. If you see jumbled text like "compressionlevel-1width40height30...", the JSON may be corrupted or improperly formatted.
+            </div>
+
+            <div class="info-box">
+                <strong>🔍 What You Should See:</strong> A properly formatted JSON file with clear structure, indentation, and readable property names. The raw JSON is what WorkAdventure needs - you're not meant to view it as a regular webpage.
             </div>
 
             <h3>Option 2: Cloud Hosting Services</h3>
