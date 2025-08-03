@@ -359,4 +359,465 @@
             </div>
 
             <div class="info-box">
-                
+                <strong>🔥 What Makes This Special:</strong> Unlike other map creation tools that require manual tile placement and complex configuration, this generator produces enterprise-grade WorkAdventure environments with zero technical expertise required.
+            </div>
+        </section>
+
+        <section id="getting-started" class="section">
+            <h2>🚀 Getting Started</h2>
+            <p>Follow this quick-start guide to create your first WorkAdventure map in under 5 minutes.</p>
+
+            <div class="step-list">
+                <div class="step-item">
+                    <strong>Fill in Basic Information</strong>
+                    <p>Enter your company/team name and select your preferred adventure theme. This determines the visual style and atmosphere of your virtual office.</p>
+                </div>
+                <div class="step-item">
+                    <strong>Choose Map Size</strong>
+                    <p>Select from Small (20x15), Medium (32x24), or Large (40x30) tiles based on your team size and room requirements.</p>
+                </div>
+                <div class="step-item">
+                    <strong>Select Interactive Rooms</strong>
+                    <p>Click on room types you need: Meeting rooms with video calls, Lounge areas for casual chat, Focus zones for quiet work, and Presentation halls for company-wide events.</p>
+                </div>
+                <div class="step-item">
+                    <strong>Generate and Download</strong>
+                    <p>Click "Generate WorkAdventure Map Files" to create your custom map. Download the JSON files and follow the deployment guide.</p>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <strong>✅ What You Get:</strong> Three essential files - map.json (layout and zones), tileset.json (visual assets), and map.js (interactive behaviors) - everything needed for a fully functional WorkAdventure world.
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <h2>⚙️ Features & Capabilities</h2>
+
+            <h3>🎨 Theme Options</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Theme</th>
+                        <th>Visual Style</th>
+                        <th>Best For</th>
+                        <th>Special Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🏰 Fantasy</td>
+                        <td>Medieval castle, magical elements</td>
+                        <td>Creative teams, game companies</td>
+                        <td>Dragon dens, wizard towers, enchanted forests</td>
+                    </tr>
+                    <tr>
+                        <td>🚀 Space</td>
+                        <td>Futuristic space station</td>
+                        <td>Tech companies, startups</td>
+                        <td>Command bridges, holographic displays, warp cores</td>
+                    </tr>
+                    <tr>
+                        <td>🏢 Modern Office</td>
+                        <td>Contemporary workplace design</td>
+                        <td>Traditional businesses, consultancies</td>
+                        <td>Glass conference rooms, open workspaces, executive areas</td>
+                    </tr>
+                    <tr>
+                        <td>🌲 Nature</td>
+                        <td>Outdoor retreat, natural elements</td>
+                        <td>Wellness companies, environmental orgs</td>
+                        <td>Treehouses, waterfalls, forest clearings</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🏛️ Interactive Room Types</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4><span class="icon">🏛️</span> Meeting Rooms</h4>
+                    <p><strong>Jitsi Integration:</strong> Automatic video calls when users enter<br>
+                    <strong>Configurable:</strong> Custom room names and participant limits<br>
+                    <strong>Professional:</strong> Optimized audio/video quality settings</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">☕</span> Lounge Areas</h4>
+                    <p><strong>Casual Chat:</strong> Open conversation spaces<br>
+                    <strong>Social Zones:</strong> Encourage team bonding<br>
+                    <strong>Flexible:</strong> Move freely without formal meeting structure</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🎯</span> Focus Zones</h4>
+                    <p><strong>Silent Mode:</strong> Audio automatically disabled<br>
+                    <strong>Concentration:</strong> Designated quiet work areas<br>
+                    <strong>Visual Cues:</strong> Clear boundaries and indicators</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">📊</span> Presentation Halls</h4>
+                    <p><strong>Large Capacity:</strong> Support for company-wide events<br>
+                    <strong>Screen Sharing:</strong> Built-in presentation features<br>
+                    <strong>Audience Mode:</strong> Structured speaker/audience layout</p>
+                </div>
+            </div>
+
+            <h3>🔧 Technical Specifications</h3>
+            <div class="code-block">
+<span class="comment">// Generated Map Structure</span>
+{
+  <span class="string">"compressionlevel"</span>: -1,
+  <span class="string">"width"</span>: 32,
+  <span class="string">"height"</span>: 24,
+  <span class="string">"layers"</span>: [
+    {
+      <span class="string">"name"</span>: <span class="string">"floor"</span>,
+      <span class="string">"type"</span>: <span class="string">"tilelayer"</span>,
+      <span class="comment">// Collision detection and visual tiles</span>
+    },
+    {
+      <span class="string">"name"</span>: <span class="string">"floorLayer"</span>, 
+      <span class="string">"type"</span>: <span class="string">"objectgroup"</span>,
+      <span class="comment">// Interactive zones and spawn points</span>
+    }
+  ],
+  <span class="string">"tilesets"</span>: [...],
+  <span class="string">"properties"</span>: [...]
+}
+            </div>
+        </section>
+
+        <section id="deployment" class="section">
+            <h2>🌐 Deployment Guide</h2>
+
+            <h3>Option 1: GitHub Pages (Recommended for Beginners)</h3>
+            <div class="step-list">
+                <div class="step-item">
+                    <strong>Create GitHub Repository</strong>
+                    <p>Sign up at <a href="https://github.com" target="_blank">GitHub</a> and create a new public repository named "workadventure-map"</p>
+                </div>
+                <div class="step-item">
+                    <strong>Upload Generated Files</strong>
+                    <p>Drag and drop your map.json, tileset.json, and map.js files into the repository</p>
+                </div>
+                <div class="step-item">
+                    <strong>Enable GitHub Pages</strong>
+                    <p>Go to Settings → Pages → Source: "Deploy from a branch" → Select "main" branch</p>
+                </div>
+                <div class="step-item">
+                    <strong>Get Your Map URL</strong>
+                    <p>Your map will be available at: <code>https://username.github.io/workadventure-map/map.json</code></p>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <strong>✅ GitHub Pages Benefits:</strong> Free hosting, automatic HTTPS, global CDN, and easy updates by committing new files.
+            </div>
+
+            <h3>Option 2: Cloud Hosting Services</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4><span class="icon">⚡</span> Netlify</h4>
+                    <p>Drag & drop deployment<br>Custom domains<br>Automatic deployments</p>
+                    <a href="https://netlify.com" target="_blank" class="btn">Try Netlify</a>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">▲</span> Vercel</h4>
+                    <p>Git integration<br>Edge network<br>Instant deployments</p>
+                    <a href="https://vercel.com" target="_blank" class="btn">Try Vercel</a>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🔥</span> Firebase</h4>
+                    <p>Google infrastructure<br>Real-time updates<br>Scalable hosting</p>
+                    <a href="https://firebase.google.com" target="_blank" class="btn">Try Firebase</a>
+                </div>
+            </div>
+
+            <h3>Option 3: Self-Hosted Server</h3>
+            <div class="code-block">
+<span class="comment"># Upload files via SCP</span>
+<span class="keyword">scp</span> map.json tileset.json map.js user@yourserver.com:/var/www/html/workadventure/
+
+<span class="comment"># Set proper permissions</span>
+<span class="keyword">chmod</span> 644 /var/www/html/workadventure/*.json
+<span class="keyword">chmod</span> 644 /var/www/html/workadventure/*.js
+
+<span class="comment"># Configure CORS headers (Apache)</span>
+<span class="keyword">echo</span> <span class="string">'Header set Access-Control-Allow-Origin "*"'</span> >> .htaccess
+            </div>
+
+            <div class="warning-box">
+                <strong>⚠️ CORS Requirements:</strong> WorkAdventure requires CORS headers to load external map files. Most hosting services handle this automatically, but self-hosted servers may need manual configuration.
+            </div>
+        </section>
+
+        <section id="customization" class="section">
+            <h2>🎨 Customization & Advanced Features</h2>
+
+            <h3>🔧 Modifying Generated Maps</h3>
+            <p>The generated JSON files can be edited to add custom features, modify room layouts, or integrate additional WorkAdventure features.</p>
+
+            <h4>Adding Custom Welcome Messages</h4>
+            <div class="code-block">
+<span class="comment">// Add to map.js file</span>
+<span class="keyword">WA</span>.onEnterZone(<span class="string">'spawn'</span>, () => {
+    <span class="keyword">WA</span>.chat.sendChatMessage(
+        <span class="string">'Welcome to our virtual office! 🎉'</span>, 
+        <span class="string">'System'</span>
+    );
+    <span class="keyword">WA</span>.ui.openPopup(<span class="string">'welcomePopup'</span>, <span class="string">'Welcome!'</span>, []);
+});
+            </div>
+
+            <h4>Creating Custom Interaction Zones</h4>
+            <div class="code-block">
+<span class="comment">// Add interactive objects to map.json</span>
+{
+  <span class="string">"height"</span>: 64,
+  <span class="string">"id"</span>: 15,
+  <span class="string">"name"</span>: <span class="string">"coffeeStation"</span>,
+  <span class="string">"properties"</span>: [
+    {
+      <span class="string">"name"</span>: <span class="string">"zone"</span>,
+      <span class="string">"type"</span>: <span class="string">"string"</span>,
+      <span class="string">"value"</span>: <span class="string">"coffee"</span>
+    }
+  ],
+  <span class="string">"type"</span>: <span class="string">"area"</span>,
+  <span class="string">"x"</span>: 320,
+  <span class="string">"y"</span>: 240
+}
+            </div>
+
+            <h3>🎨 Custom Visual Assets</h3>
+            <p>Replace default tilesets with your own graphics for complete brand customization.</p>
+
+            <div class="step-list">
+                <div class="step-item">
+                    <strong>Create Tileset Image</strong>
+                    <p>Design a 256x256 pixel PNG with 32x32 pixel tiles. Include walls, floors, decorative elements, and interactive objects.</p>
+                </div>
+                <div class="step-item">
+                    <strong>Update Tileset JSON</strong>
+                    <p>Modify tileset.json to reference your custom image file and define collision properties for each tile.</p>
+                </div>
+                <div class="step-item">
+                    <strong>Test Collision Detection</strong>
+                    <p>Ensure wall tiles have "collides: true" property to prevent players from walking through them.</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <strong>💡 Pro Tip:</strong> Use tile editing software like Tiled Map Editor for visual map layout design, then export to JSON format compatible with WorkAdventure.
+            </div>
+        </section>
+
+        <section id="troubleshooting" class="section">
+            <h2>🔧 Troubleshooting</h2>
+
+            <h3>Common Issues & Solutions</h3>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4><span class="icon">❌</span> Map Won't Load</h4>
+                    <p><strong>Symptoms:</strong> Blank screen or loading error<br>
+                    <strong>Solution:</strong> Check CORS headers, verify JSON syntax, ensure files are publicly accessible</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🎥</span> Jitsi Not Working</h4>
+                    <p><strong>Symptoms:</strong> No video call when entering meeting rooms<br>
+                    <strong>Solution:</strong> Verify room names are unique, check browser permissions, test Jitsi independently</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🖼️</span> Tiles Not Displaying</h4>
+                    <p><strong>Symptoms:</strong> Missing graphics or broken visuals<br>
+                    <strong>Solution:</strong> Ensure tileset.json references correct image file, check image file permissions</p>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🚫</span> Collision Issues</h4>
+                    <p><strong>Symptoms:</strong> Players walk through walls<br>
+                    <strong>Solution:</strong> Verify "collides: true" property on wall tiles in tileset.json</p>
+                </div>
+            </div>
+
+            <h3>Debug Checklist</h3>
+            <div class="step-list">
+                <div class="step-item">
+                    <strong>Check Browser Console</strong>
+                    <p>Open F12 developer tools and look for JavaScript errors or network request failures</p>
+                </div>
+                <div class="step-item">
+                    <strong>Validate JSON Syntax</strong>
+                    <p>Use <a href="https://jsonlint.com" target="_blank">JSONLint</a> to verify your map.json and tileset.json files are properly formatted</p>
+                </div>
+                <div class="step-item">
+                    <strong>Test File Accessibility</strong>
+                    <p>Directly access your map.json URL in a browser to ensure it loads without errors</p>
+                </div>
+                <div class="step-item">
+                    <strong>Verify WorkAdventure Configuration</strong>
+                    <p>Ensure your WorkAdventure world settings point to the correct map URL</p>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <strong>⚠️ Common Mistake:</strong> Mixing HTTP and HTTPS URLs. WorkAdventure requires HTTPS for security - ensure all your map files are served over HTTPS.
+            </div>
+        </section>
+
+        <section id="api" class="section">
+            <h2>📚 API Reference</h2>
+
+            <h3>📄 Generated File Structure</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Purpose</th>
+                        <th>Required</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>map.json</td>
+                        <td>Main map definition</td>
+                        <td>✅ Yes</td>
+                        <td>Contains layers, objects, properties, and tileset references</td>
+                    </tr>
+                    <tr>
+                        <td>tileset.json</td>
+                        <td>Visual asset definitions</td>
+                        <td>✅ Yes</td>
+                        <td>Defines tile properties, collision detection, and image references</td>
+                    </tr>
+                    <tr>
+                        <td>map.js</td>
+                        <td>Interactive behaviors</td>
+                        <td>⚠️ Optional</td>
+                        <td>Custom scripts for zone interactions, chat messages, and events</td>
+                    </tr>
+                    <tr>
+                        <td>tileset.png</td>
+                        <td>Visual graphics</td>
+                        <td>⚠️ External</td>
+                        <td>Image file containing all visual tiles (must be hosted separately)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🎯 Interactive Zone Properties</h3>
+            <div class="code-block">
+<span class="comment">// Meeting Room with Jitsi Integration</span>
+{
+  <span class="string">"name"</span>: <span class="string">"meetingRoom"</span>,
+  <span class="string">"type"</span>: <span class="string">"area"</span>,
+  <span class="string">"properties"</span>: [
+    {
+      <span class="string">"name"</span>: <span class="string">"jitsiRoom"</span>,
+      <span class="string">"type"</span>: <span class="string">"string"</span>,
+      <span class="string">"value"</span>: <span class="string">"meeting-room-1"</span>
+    },
+    {
+      <span class="string">"name"</span>: <span class="string">"jitsiWidth"</span>,
+      <span class="string">"type"</span>: <span class="string">"int"</span>,
+      <span class="string">"value"</span>: 4
+    },
+    {
+      <span class="string">"name"</span>: <span class="string">"jitsiHeight"</span>,
+      <span class="string">"type"</span>: <span class="string">"int"</span>,
+      <span class="string">"value"</span>: 4
+    }
+  ]
+}
+
+<span class="comment">// Silent Focus Zone</span>
+{
+  <span class="string">"name"</span>: <span class="string">"focusZone"</span>,
+  <span class="string">"type"</span>: <span class="string">"area"</span>,
+  <span class="string">"properties"</span>: [
+    {
+      <span class="string">"name"</span>: <span class="string">"silent"</span>,
+      <span class="string">"type"</span>: <span class="string">"bool"</span>,
+      <span class="string">"value"</span>: true
+    }
+  ]
+}
+            </div>
+
+            <h3>📞 Support & Resources</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4><span class="icon">📖</span> Official Documentation</h4>
+                    <p>Comprehensive guides and API references</p>
+                    <a href="https://docs.workadventu.re" target="_blank" class="btn">View Docs</a>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">💬</span> Community Discord</h4>
+                    <p>Get help from other developers and users</p>
+                    <a href="https://discord.gg/workadventure" target="_blank" class="btn btn-secondary">Join Discord</a>
+                </div>
+                <div class="feature-card">
+                    <h4><span class="icon">🐙</span> GitHub Repository</h4>
+                    <p>Source code, issues, and contributions</p>
+                    <a href="https://github.com/thecodingmachine/workadventure" target="_blank" class="btn btn-secondary">View GitHub</a>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <strong>🎉 Ready to Deploy?</strong> You now have everything needed to create, customize, and deploy professional WorkAdventure virtual offices. Start building your team's digital workspace today!
+            </div>
+        </section>
+
+        <footer style="text-align: center; padding: 40px 20px; color: #718096;">
+            <p>WorkAdventure Map Generator Documentation • Built for teams who want to create amazing virtual workspaces</p>
+            <p style="margin-top: 10px;">
+                <a href="#overview" style="color: #667eea; text-decoration: none;">Back to Top</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll highlighting for navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav-list a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .nav-list a.active {
+            background: #667eea;
+            color: white;
+        }
+    </style>
+</body>
+</html>
