@@ -1,0 +1,27 @@
+{
+  "columns": 8,
+  "image": "nature_tileset.png",
+  "imageheight": 256,
+  "imagewidth": 256,
+  "margin": 0,
+  "name": "tileset",
+  "spacing": 0,
+  "tilecount": 64,
+  "tiledversion": "1.7.2",
+  "tileheight": 32,
+  "tiles": [
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "tilewidth": 32,
+  "type": "tileset",
+  "version": "1.6"
+}
